@@ -1,0 +1,9 @@
+<div class="parent-project-component">
+    <div class="cards" *ngFor="let projet of projets">
+        <div class="cards-enTete">
+            <h1>{{projet.titre}}</h1>
+            <h4>{{projet.date_debut}}</h4>
+        </div>
+        <p>{{projet.description}}</p>
+    </div>
+</div>

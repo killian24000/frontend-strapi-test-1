@@ -1,0 +1,31 @@
+div {
+    h1,p {
+        font-family: 'Noto Sans', sans-serif;
+    }
+    h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+.parent-project-component {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    background: rgb(210, 210, 210);
+    padding: 16px 32px;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+.cards-enTete {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
